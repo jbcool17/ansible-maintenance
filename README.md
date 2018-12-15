@@ -1,0 +1,3 @@
+# maintanance ansible
+
+- yum update
