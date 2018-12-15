@@ -2,4 +2,4 @@
 - hosts: all
   become: true
   roles:
-      - maintanance.yum-update
+      - maintanance.apt-update
