@@ -1,0 +1,10 @@
+
+# do an "apt-get update", to ensure latest package lists
+- name: apt-get update
+  apt:
+      update-cache: yes
+
+- name: Upgrade all packages to the latest version
+  apt:
+    name: "*"
+    state: latest
