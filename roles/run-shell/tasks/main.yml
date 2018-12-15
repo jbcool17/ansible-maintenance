@@ -1,2 +1,4 @@
 - name: Run Shell
   shell: "{{ shell_cmd }}"
+  args:
+    executable: /bin/bash
