@@ -4,7 +4,7 @@
       name: "*"
       state: latest
   tags:
-      - all
+      - updates
 
 - name: yum security updates
   yum:
