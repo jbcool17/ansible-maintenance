@@ -3,3 +3,13 @@
   yum:
       name: "*"
       state: latest
+  tags:
+      - all
+
+- name: yum security updates
+  yum:
+      name: "*"
+      state: latest
+      security: yes
+  tags:
+      - security
