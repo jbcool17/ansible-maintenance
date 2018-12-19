@@ -3,15 +3,12 @@ collection of maintenance roles(updates, cron jobs etc...)
 ***
 
 ## Roles
-- yum
-  - tags
-    - updates
-    - security
-- apt
-  - tags
-    - updates
-    - security
 
+### yum
+  - tags = updates,security
+
+### apt
+  - tags = updates
 
 ## Setup
 - [pipenv](https://github.com/pypa/pipenv)
