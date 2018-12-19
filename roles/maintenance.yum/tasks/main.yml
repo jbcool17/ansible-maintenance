@@ -1,4 +1,10 @@
 ---
+- name: yum-plugin-security for release version 6
+  yum:
+      name: "yum-plugin-security"
+      state: latest
+  when: ansible_distribution == "CentOS" and ansible_distribution_major_version == '6'
+
 - name: yum update
   yum:
       name: "*"
@@ -13,6 +19,3 @@
       security: true
   tags:
       - security
-
-# set up for centos 6
-# yum install yum-plugin-security
