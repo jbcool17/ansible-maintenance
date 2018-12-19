@@ -2,8 +2,12 @@
 - name: apt-get update
   apt:
       update-cache: yes
+  tags:
+    - updates
 
 - name: apt upgrade
   apt:
     name: "*"
     state: latest
+  tags:
+    - updates
