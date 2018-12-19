@@ -1,0 +1,9 @@
+---
+- name: apt-get update
+  apt:
+      update-cache: yes
+
+- name: apt upgrade
+  apt:
+    name: "*"
+    state: latest
