@@ -1,0 +1,11 @@
+---
+- name: Install all security, critical, and rollup updates without a scheduled task
+  win_updates:
+    category_names:
+      - SecurityUpdates
+      - CriticalUpdates
+      - UpdateRollups
+  reboot: "{{ windows_reboot }}"
+  reboot_timeout: "{{ windows_reboot_timeout }}"
+  tags:
+    - updates

@@ -10,6 +10,18 @@ collection of maintenance roles(updates, cron jobs etc...)
 ### apt
   - tags = updates
 
+### windows
+  - tags = updates
+  - variables
+  ```
+  # automatically reboot if needed
+  windows_reboot: yes
+  
+  # timeout in seconds
+  windows_reboot_timeout: 1200
+  ```
+
+
 ## Setup
 - [pipenv](https://github.com/pypa/pipenv)
 
