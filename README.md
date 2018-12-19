@@ -25,6 +25,11 @@ pipenv shell
 - [molecule](https://github.com/ansible/molecule)
 
 ```
-cd roles/<roles>
+# run tests
+cd roles/<role>
 molecule test
+
+# initialize existing role
+cd roles/<role>
+molecule init scenario -r <role> -d docker
 ```

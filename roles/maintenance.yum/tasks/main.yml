@@ -13,3 +13,6 @@
       security: true
   tags:
       - security
+
+# set up for centos 6
+# yum install yum-plugin-security
