@@ -10,6 +10,6 @@
   yum:
       name: "*"
       state: latest
-      security: yes
+      security: true
   tags:
       - security

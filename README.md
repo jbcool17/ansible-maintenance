@@ -1,6 +1,8 @@
-# maintanance ansible
+# Maintenance Ansible
+collection of maintenance roles(updates, cron jobs etc...)
+***
 
-## roles
+## Roles
 - yum
   - tags
     - updates
@@ -12,4 +14,17 @@
 
 
 ## Setup
-- pipenv sync
+- [pipenv](https://github.com/pypa/pipenv)
+
+```
+pipenv sync
+pipenv shell
+```
+
+## Testing
+- [molecule](https://github.com/ansible/molecule)
+
+```
+cd roles/<roles>
+molecule test
+```
