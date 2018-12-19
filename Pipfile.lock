@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "35bd06a7e3b652a235f6d32d098dad4f901f81340ff49a37108dab12fb1e5f76"
+            "sha256": "c7dcc8d9eea606aabb49454b8b370de0623518902d5e13533a1ea91aae64d37d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -330,6 +330,13 @@
             ],
             "version": "==4.3.0"
         },
+        "ntlm-auth": {
+            "hashes": [
+                "sha256:7bc02a3fbdfee7275d3dc20fce8028ed8eb6d32364637f28be9e9ae9160c6d5c",
+                "sha256:9b13eaf88f16a831637d75236a93d60c0049536715aafbf8190ba58a590b023e"
+            ],
+            "version": "==1.2.0"
+        },
         "paramiko": {
             "hashes": [
                 "sha256:3c16b2bfb4c0d810b24c40155dbfd113c0521e7e6ee593d704e84b4c658a1f3b",
@@ -475,6 +482,14 @@
             ],
             "version": "==1.2.1"
         },
+        "pywinrm": {
+            "hashes": [
+                "sha256:799fc3e33fec8684443adf5778860388289102ea4fa1458f1bf307d167855573",
+                "sha256:ade21b22c72eb3e2e4656798c232ee5f7ce07d157184561eec50691502bc7464"
+            ],
+            "index": "pypi",
+            "version": "==0.3.0"
+        },
         "pyyaml": {
             "hashes": [
                 "sha256:3d7da3009c0f3e783b2c873687652d83b1bbfd5c88e9813fb7e5b03c0dd3108b",
@@ -497,6 +512,13 @@
                 "sha256:7bf2a778576d825600030a110f3c0e3e8edc51dfaafe1c146e39a2027784957b"
             ],
             "version": "==2.21.0"
+        },
+        "requests-ntlm": {
+            "hashes": [
+                "sha256:1eb43d1026b64d431a8e0f1e8a8c8119ac698e72e9b95102018214411a8463ea",
+                "sha256:9189c92e8c61ae91402a64b972c4802b2457ce6a799d658256ebf084d5c7eb71"
+            ],
+            "version": "==1.1.0"
         },
         "sh": {
             "hashes": [
@@ -552,6 +574,13 @@
                 "sha256:fecddd531f237ffc5db8b215409afb18fa30300699064cca4817521b4fc81815"
             ],
             "version": "==0.5.2"
+        },
+        "xmltodict": {
+            "hashes": [
+                "sha256:8f8d7d40aa28d83f4109a7e8aa86e67a4df202d9538be40c0cb1d70da527b0df",
+                "sha256:add07d92089ff611badec526912747cf87afd4f9447af6661aca074eeaf32615"
+            ],
+            "version": "==0.11.0"
         },
         "yamllint": {
             "hashes": [

@@ -19,6 +19,9 @@ collection of maintenance roles(updates, cron jobs etc...)
   
   # timeout in seconds
   windows_reboot_timeout: 1200
+
+# CMD
+ansible all -i 192.168.2.43, -m setup -c winrm -e ansible_winrm_server_cert_validation=ignore -u Administrator -k
   ```
 
 
