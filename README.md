@@ -14,11 +14,8 @@ collection of maintenance roles(updates, cron jobs etc...)
   - tags = updates
   - variables
   ```
-  # automatically reboot if needed
+  # automatically reboot if needed(timeout set to 60min)
   windows_reboot: yes
-
-  # timeout in seconds(20min)
-  windows_reboot_timeout: 1200
 
 # CMD
 # https://docs.ansible.com/ansible/latest/user_guide/windows_winrm.html
