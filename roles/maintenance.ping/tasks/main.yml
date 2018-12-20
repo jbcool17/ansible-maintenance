@@ -1,0 +1,6 @@
+---
+- win_ping:
+  when: ansible_os_family == "Windows"
+
+- ping:
+  when: ansible_os_family != "Windows"
