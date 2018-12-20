@@ -16,11 +16,13 @@ collection of maintenance roles(updates, cron jobs etc...)
   ```
   # automatically reboot if needed
   windows_reboot: yes
-  
-  # timeout in seconds
+
+  # timeout in seconds(20min)
   windows_reboot_timeout: 1200
 
 # CMD
+# https://docs.ansible.com/ansible/latest/user_guide/windows_winrm.html
+  export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES # for macos
 ansible all -i 192.168.2.43, -m setup -c winrm -e ansible_winrm_server_cert_validation=ignore -u Administrator -k
   ```
 

@@ -5,7 +5,7 @@
       - SecurityUpdates
       - CriticalUpdates
       - UpdateRollups
-  reboot: "{{ windows_reboot }}"
-  reboot_timeout: "{{ windows_reboot_timeout }}"
+    reboot: "{{ windows_reboot }}"
+    reboot_timeout: "{{ windows_reboot_timeout }}"
   tags:
     - updates
