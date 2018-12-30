@@ -1,7 +1,7 @@
 ---
 - name: apt-get update
   apt:
-      update-cache: yes
+    update-cache: true
   tags:
     - updates
 
@@ -9,5 +9,11 @@
   apt:
     name: "*"
     state: latest
+    force_apt_get: true
   tags:
     - updates
+
+- name: Security
+  import_tasks: security.yml
+  tags:
+    - security
